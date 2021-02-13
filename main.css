@@ -1,5 +1,8 @@
+@import url('https://fonts.googleapis.com/css2?family=Mulish:ital,wght@0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Sniglet&display=swap');
+
 * {
     margin: 0;
+    font-family: 'Mulish', sans-serif;
 }
 .container {
     max-width: 1218px;
@@ -37,7 +40,6 @@
     border: none;
     cursor: pointer;
     font-size: 15px;
-    font-family: 'Roboto', sans-serif;
     width: auto;
     height: auto;
     color: #1F1534;
@@ -73,7 +75,6 @@
 .service {
     font-size: 45px;
     font-weight: bold;
-    font-family: 'Roboto', sans-serif;
     color: #000000;
 
 }
@@ -82,12 +83,10 @@
     color: #7D7987;
     font-size: 22px;
     font-weight: 300;
-    font-family: 'Roboto', sans-serif;
 ;
 }
 .consult-btn {
     font-size: 17px;
-    font-family: 'Roboto', sans-serif;
     width: 200px;
     height: 56px;
     border-radius: 55px;
@@ -106,7 +105,6 @@
 .healthcare-img {
     width: 693px;
     height: 598px;
-    background: url("https://s3-alpha-sig.figma.com/img/e7c8/a652/b4ff26a094731214f377e182c2504450?Expires=1612137600&Signature=TrRxtnbYGd17HNiyhN8j8OH1WnNqZm7ph-1U~UqvLDCU8t5rf5p0yI~T9xlgk-U9qtIHTcrKJis5hq4~x9aCz-4pGCMn4TIJJItC54mR~IRlWlcFUayxWbk4lEdHTovrp6AvDSHFQ6luKvxOf8BUUa9DvbZzTcGRJ9pl91K7xNXX~FqhU2zsyKF4uQvSRndi83pLSn2VdXEEhJSCvbZDenaRz67IvstJVumez3N1Z3YhM5-nlO0GyYn1Bo1Qo4gpY7Xn-IT0Ovr77yUflygcLwpkXGk3MGjYPwtUrvkVzjC0056xormtGhSP68jAOPa7vw4rl9Zeha3z9FVyCdMeDQ__&Key-Pair-Id=APKAINTVSUGEWH5XD5UA");
 }
 .main {
     margin-top: 100px;
@@ -132,7 +130,6 @@
 }
 .main-services {
     font-size: 40px;
-    font-family: 'Roboto', sans-serif;
     color: #000000;
 }
 .underline {
@@ -143,7 +140,6 @@
 }
 .main-description {
     font-size: 18px;
-    font-family: 'Roboto', sans-serif;
     color: #7D7987;
     margin-top: 35px;
 
@@ -189,7 +185,6 @@
     height: 56px;
     padding-top: 30px;
     color: black;
-    font-family: 'Roboto', sans-serif;
     font-size: 25px;
 
 
@@ -197,7 +192,6 @@
 }
 .card-text {
     color: #7D7987;
-    font-family: 'Roboto', sans-serif;
     font-size: 18px;
 }
 .drip {
@@ -219,7 +213,6 @@
     border-radius: 50px;
     font-size: 18px;
     font-weight: bold;
-    font-family: 'Roboto', sans-serif;
     cursor: pointer;
 }
 .main-upper-mid {
@@ -243,7 +236,6 @@
 .upper-mid-rightside {
     width: 500px;
     height: 400px;
-    font-family: 'Roboto', sans-serif;
     margin-top: 60px;
 
 }
@@ -276,7 +268,6 @@
 .main-mid-info {
     width: 500px;
     height: 400px;
-    font-family: 'Roboto', sans-serif;
     margin-top: 60px;
     margin-right: 20px;
 }
@@ -289,7 +280,6 @@
     border-radius: 50px;
     font-size: 18px;
     font-weight: bold;
-    font-family: 'Roboto', sans-serif;
     cursor: pointer;
     display: flex;
     justify-content: center;
@@ -327,7 +317,6 @@
 .tablet-heading {
     font-size: 36px;
     font-weight: bold;
-    font-family: 'Roboto', sans-serif;
     color: white;
 }
 .tablet-underline {
@@ -353,7 +342,6 @@
     justify-content: center;
     align-items: center;
     font-size: 19px;
-    font-family: 'Roboto', sans-serif;
     color: white;
 }
 .profile-photo {
@@ -368,12 +356,10 @@
 }
 .niggas-name {
     font-size: 22px;
-    font-family: 'Roboto', sans-serif;
     color: white;
 }
 .niggas-position {
     font-size: 18px;
-    font-family: 'Roboto', sans-serif;
     color: white;
 }
 .down-right-side {
@@ -383,7 +369,6 @@
     justify-content: flex-start;
     align-items: center;
     font-size: 19px;
-    font-family: 'Roboto', sans-serif;
     color: white;
     line-height: 30px;
 }
@@ -451,7 +436,6 @@
     color: black;
     font-size: 36px;
     font-weight: bold;
-    font-family: 'Roboto', sans-serif;
     margin-top: 50px;
 }
 .mid-btm-underline {
@@ -485,19 +469,16 @@
 }
 .btm-card-heading {
     margin-top: 25px;
-    font-family: 'Roboto', sans-serif;
     font-weight: bold;
     font-size: 21px;
     color: black;
 }
 .btm-card-text {
-    font-family: 'Roboto', sans-serif;
     font-size: 16px;
     color: #7D7987;
     margin-top: 25px;
 }
 .btm-card-btn {
-    font-family: 'Roboto', sans-serif;
     font-size: 17px;
     color: #4089ED;
     margin-top: 25px;
@@ -527,7 +508,6 @@
     border-radius: 50px;
     font-size: 18px;
     font-weight: bold;
-    font-family: 'Roboto', sans-serif;
     cursor: pointer;
     display: flex;
     justify-content: center;
@@ -561,13 +541,11 @@
     align-items: center;
 }
 .footer-logo {
-    font-family: 'Roboto', sans-serif;
     font-size: 24px;
     font-weight: bold;
     color: white;
 }
 .footer-p {
-    font-family: 'Roboto', sans-serif;
     font-size: 16px;
     color: white;
 }
